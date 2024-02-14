@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .filtros {
+    margin-bottom: 20px;
+  }
+  
+  .filtros form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filtros label {
+    margin-right: 10px;
+  }
+  
+  .tabla-tareas {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabla-tareas th, .tabla-tareas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tabla-tareas th {
+    text-align: center;
+  }
+  
+  .proyectos {
+    margin-top: 20px;
+  }
+  
+  .proyectos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .proyectos ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  

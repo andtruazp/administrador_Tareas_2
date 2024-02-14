@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de proyecto</title>
+</head>
+<body>
+    <h1>Registro de proyecto</h1>
+    <form action="#">
+        <label for="nombre">Nombre del proyecto:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="detalles">Detalles del proyecto:</label>
+        <textarea id="detalles" name="detalles" required></textarea>
+
+        <label for="fecha_inicio">Fecha de inicio:</label>
+        <input type="date" id="fecha_inicio" name="fecha_inicio" required>
+
+        <label for="fecha_fin">Fecha de finalización:</label>
+        <input type="date" id="fecha_fin" name="fecha_fin" required>
+
+        <label for="cliente">Cliente:</label>
+        <input type="text" id="cliente" name="cliente" required>
+
+        <button type="submit">Registrar proyecto</button>
+    </form>
+
+    <h2>Añadir tarea</h2>
+    <form action="#">
+        <label for="nombre_tarea">Nombre de la tarea:</label>
+        <input type="text" id="nombre_tarea" name="nombre_tarea" required>
+
+        <label for="asignado_a">Asignado a:</label>
+        <select id="asignado_a" name="asignado_a">
+            <option value="">-- Seleccionar --</option>
+            <option value="ana">Ana García</option>
+            <option value="juan">Juan Pérez</option>
+            <option value="maria">María López</option>
+        </select>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+            <option value="">-- Seleccionar --</option>
+            <option value="pendiente">Pendiente</option>
+            <option value="en_curso">En curso</option>
+            <option value="finalizada">Finalizada</option>
+        </select>
+
+        <button type="submit">Añadir tarea</button>
+    </form>
+
+    <h2>Tareas del proyecto</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Asignado a</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tarea X</td>
+                <td>Ana García</td>
+                <td>Pendiente</td>
+            </tr>
+            <tr>
+                <td>Tarea Y</td>
+                <td>Juan Pérez</td>
+                <td>En curso</td>
+            </tr>
+            <tr>
+                <td>Tarea Z</td>
+                <td>María López</td>
+                <td>Finalizada</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

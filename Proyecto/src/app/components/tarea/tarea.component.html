@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de tareas</title>
+</head>
+<body>
+  <h1>Formulario de tareas</h1>
+  <form action="#">
+    <section class="campo">
+      <label for="proyecto">Proyecto:</label>
+      <select name="proyecto" id="proyecto">
+        <option value="">Selecciona un proyecto</option>
+        <option value="proyecto1">Proyecto 1</option>
+        <option value="proyecto2">Proyecto 2</option>
+      </select>
+    </section>
+    <section class="campo">
+      <label for="nombre-tarea">Nombre de la tarea:</label>
+      <input type="text" name="nombre-tarea" id="nombre-tarea">
+    </section>
+    <section class="campo">
+      <label for="fecha-finalizacion">Fecha de finalización:</label>
+      <input type="date" name="fecha-finalizacion" id="fecha-finalizacion">
+    </section>
+    <section class="campo">
+      <label for="responsable">Responsable:</label>
+      <input type="text" name="responsable" id="responsable">
+    </section>
+    <section class="campo">
+      <label for="detalles">Detalles:</label>
+      <textarea name="detalles" id="detalles"></textarea>
+    </section>
+    <section class="campo">
+      <label for="observaciones">Observaciones:</label>
+      <textarea name="observaciones" id="observaciones"></textarea>
+    </section>
+    <section class="botones">
+      <button type="submit">Guardar</button>
+      <button type="reset">Cancelar</button>
+    </section>
+  </form>
+</body>
+</html>
+

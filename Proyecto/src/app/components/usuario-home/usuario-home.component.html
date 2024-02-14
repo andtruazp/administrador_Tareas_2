@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas</title>
+</head>
+<body>
+  <header>
+    <h1>Lista de tareas</h1>
+  </header>
+  <section class="filtros">
+    <form action="#">
+      <label for="filtro-proyecto">Filtrar por proyecto:</label>
+      <select name="filtro-proyecto" id="filtro-proyecto">
+        <option value="">Todos</option>
+        <option value="proyecto1">Proyecto 1</option>
+        <option value="proyecto2">Proyecto 2</option>
+      </select>
+      <label for="filtro-busqueda">Buscar:</label>
+      <input type="text" name="filtro-busqueda" id="filtro-busqueda">
+      <button type="submit">Filtrar</button>
+    </form>
+  </section>
+  <section class="tabla-tareas">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Fecha de finalización</th>
+          <th>Proyecto</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tarea 1</td>
+          <td>2024-03-15</td>
+          <td>Proyecto 1</td>
+          <td><a href="#">Ir</a></td>
+        </tr>
+        <tr>
+          <td>Tarea 2</td>
+          <td>2024-02-20</td>
+          <td>Proyecto 2</td>
+          <td><a href="#">Ir</a></td>
+        </tr>
+        <tr>
+          <td>Tarea 3</td>
+          <td>2024-03-01</td>
+          <td>Proyecto 1</td>
+          <td><a href="#">Ir</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li><a href="#">Proyecto 1</a></li>
+      <li><a href="#">Proyecto 2</a></li>
+    </ul>
+  </section>
+</body>
+</html>
+
