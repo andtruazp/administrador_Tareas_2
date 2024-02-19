@@ -1,4 +1,3 @@
-import { UsuarioHomeComponent } from './components/usuario-home/usuario-home.component';
 import { TareaComponent } from './components/tarea/tarea.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { EquipoComponent } from './components/equipo/equipo.component';
@@ -6,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
+import { ActividadesComponent } from './components/actividades/actividades.component';
 
 
 
@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'equipo', component: EquipoComponent},
   {path:'proyecto', component: ProyectoComponent},
   {path:'tarea', component: TareaComponent},
-  {path:'user', component: UsuarioHomeComponent}
+  {path:'actividades', component: ActividadesComponent}
 ];
 
 @NgModule({

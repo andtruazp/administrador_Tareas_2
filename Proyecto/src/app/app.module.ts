@@ -12,7 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { EquipoComponent } from './components/equipo/equipo.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { TareaComponent } from './components/tarea/tarea.component';
-import { UsuarioHomeComponent } from './components/usuario-home/usuario-home.component';
+import { ActividadesComponent } from './components/actividades/actividades.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { UsuarioHomeComponent } from './components/usuario-home/usuario-home.com
     EquipoComponent,
     ProyectoComponent,
     TareaComponent,
-    UsuarioHomeComponent
+    ActividadesComponent
 
   ],
   imports: [
